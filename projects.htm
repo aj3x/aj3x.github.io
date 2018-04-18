@@ -1,0 +1,71 @@
+<h2>Projects</h2>
+<h4>Table of Contents</h4>
+<ol class="table" ng-init="parent='#!projects'">
+    
+    <a href="{{parent}}#Dwarves">
+        <li class="">
+            The Dwarves at Hielthe Mine
+        </li>
+    </a>
+
+    <a href="{{parent}}#Bomber">
+        <li class="">
+            BomberBoy
+        </li>
+    </a>
+    
+    <a href="{{parent}}#Gamejam">
+        <li class="">
+            GameJam 2016
+        </li>
+    </a>
+    
+    <a href="{{parent}}#testc">
+        <li class="">
+
+        </li>
+    </a>
+</ol>
+
+<h5 id="Dwarves">The Dwarves at Hielthe Mine</h5>
+<p>
+    Unity game developed by my team and myself in CMPT 406. Utilized Agile methodologies with two week sprints.
+    The game is procedurally generated using Perlin noise for resources and terrain. Caves are generated using cellular
+    automaton with events, resources, and enemies scattered around the cave. The AI uses nav meshes to get around with only
+    select areas around the player, towncenter, and outposts being generated dynamically.
+    I worked on numerous aspects of the game throughout development. The majority of my time was spent on AI, NavMesh, terrain
+    generation, resource generation, and improving efficiency of the entire system.
+</p>
+<br>
+<hr>
+<br>
+
+<h5 id="BomberBoy">Bomber</h5>
+<p>Bomberman replica with networked mobile multiplayer and Facebook and Twitter integration. 
+    Features semi-destructible environment, room for up to 4 networked players, and easy to use mobile controls. 
+    My work consisted of programming the environment and players, as well as integrating the game with the network team.
+    <a class="alert-link" href="https://github.com/mkp003/CMPT436Project">GitHub</a>
+</p>
+<img class="img-fluid" ng-init="bomberScreen='files/bomber_screen'"
+    src="{{bomberScreen}}.png" 
+    alt="BomberBoy blew up this image." 
+    title="Cool Guys Don't Look at Explosions" 
+    srcset="{{bomberScreen}}_320.png 320w,
+            {{bomberScreen}}_480.png 480w,
+            {{bomberScreen}}_800.png 800w"
+     sizes="(max-width: 320px) 320px,
+            480px"
+>
+
+
+<h5 id="Gamejam">GameJam 2016</h5>
+<img class="img-fluid" ng-init="jamScreen='files/gamejam_screen'"
+    src="{{jamScreen}}.png" 
+    alt="GameJam Screenshot" 
+    title="Super Intense Action Sequence #374"
+    srcset="{{jamScreen}}_320.png 320w,
+            {{jamScreen}}_480.png 480w,
+            {{jamScreen}}_800.png 800w"
+     sizes="(max-width: 320px) 320px,
+            480px"
+>

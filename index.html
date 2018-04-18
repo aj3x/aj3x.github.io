@@ -1,7 +1,10 @@
 <!doctype html>
-<html ng-app>
+<html>
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js" ></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+        
+
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js" defer></script> -->
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js" async></script> -->
 
@@ -10,15 +13,40 @@
 
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
-        
+    <body ng-app="navRoute" ng-init="selected='main'">
         <div class="container">
-            <label>Name:</label>
-            <input type="text" ng-model="yourName" placeholder="Enter a name here">
+            <div ng-include="'nav.htm'"></div>
+
+
+            <!-- <label>Name:</label>
+            <input class="form-control" type="text" ng-model="yourName" placeholder="Enter a name here" style="max-width: 300px">
             <hr>
-            <h1>Hello {{yourName}}!</h1>
+            <h1>Hello {{yourName}}!</h1> -->
+            
+            <div ng-view></div>
+
+
+            <div ng-include="'foot.htm'"></div>
+            
         </div>
+
+    <script>
+    var app = angular.module("navRoute", ["ngRoute"]);
+    app.config(function($routeProvider) {
+        $routeProvider
+        .when("/", {
+            templateUrl : "main.htm"
+        })
+        .when("/projects", {
+            templateUrl : "projects.htm"
+        })
+        .when("/green", {
+            templateUrl : "green.htm"
+        })
+        .when("/blue", {
+            templateUrl : "blue.htm"
+        });
+    });
+    </script>
     </body>
 </html>
-
-

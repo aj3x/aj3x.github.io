@@ -13,6 +13,16 @@ body{
     background: var(--back);
 }
 
+h5{
+    font-weight: bold;
+}
+nav a{
+    color: red;
+}
+nav a:hover{
+    color: green;
+}
+
 /* .content{
     max-width: 720px;
 } */
