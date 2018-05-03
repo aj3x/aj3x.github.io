@@ -16,7 +16,7 @@
     </head>
     <body ng-app="navRoute" ng-init="selected='main'">
         <div class="container">
-            <div ng-include="'nav.htm'"></div>
+            <div class="navbar-light" ng-include="'nav.htm'"></div>
 
 
             <!-- <label>Name:</label>
@@ -38,14 +38,14 @@
         .when("/", {
             templateUrl : "main.htm"
         })
-        .when("/projects", {
+        .when("/readme", {
+            templateUrl : "about.htm"
+        })
+        .when("/knowledgebase", {
             templateUrl : "projects.htm"
         })
-        .when("/green", {
-            templateUrl : "green.htm"
-        })
-        .when("/blue", {
-            templateUrl : "blue.htm"
+        .when("/foo", {
+            templateUrl : "bar.htm"
         });
     });
     </script>
