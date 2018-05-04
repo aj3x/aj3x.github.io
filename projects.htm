@@ -26,15 +26,30 @@
         </li>
     </a>
 </ol>
-<!-- TODO: Expand bullet points to flowing sentences -->
 <h5 id="Dwarves">The Dwarves at Hielthe Mine</h5>
 <p>
-    Unity game developed by my team and myself in CMPT 406. Utilized Agile methodologies with two week sprints.
-    The game is procedurally generated using Perlin noise for resources and terrain. Caves are generated using cellular
-    automaton with events, resources, and enemies scattered around the cave. The AI uses nav meshes to get around with only
-    select areas around the player, towncenter, and outposts being generated dynamically.
+    My team and I developed this game for our Game Design Workshop class(CMPT 406). 
+    We decided on creating a procedurally generated game wthat focused on interactions with NPCs.
+    We developed the game using Unity and utilized Agile methodologies. 
+    We met twice a week, once for our daily standups and the other for any questions, integrating issues, and as a general work period.
+</p>
+<p>
+    The game is procedurally generated using Perlin noise for resources and terrain. 
+    Caves are spawned on the map and can be entered. We used cellular automaton to create the interiors. 
+    From here we scattered events, resources, and enemies around the cave. 
+    There are two main oppenents the player faces weather and elemental penguins. 
+    The penguins spawn during extreme weather and attack whichever character is in range.
+    The player is given a grace period before this to allow them to develop their town center to help defend against them.
+    The AI uses dynamic nav meshes to get around.
+    To reduce the system load, only selected areas are generated dynamically around: player, towncenter, and outposts.
+    <br>
     I worked on numerous aspects of the game throughout development. The majority of my time was spent on AI, NavMesh, terrain
     generation, resource generation, and improving efficiency of the entire system.
+    As well I helped team members design, develop, and integrate their code into the project.
+    Overall the team worked diligently and spent many weekends fixing unforseen problems and efficiency issues.
+    The final result was presented at Bartari to the general public and did well for itself. 
+    <br>
+    <a href="https://github.com/LucrativeHippo/Dwarves">GitHub</a>
 </p>
 <img class="img-fluid" ng-init="dwarfScreen='files/dwarves_title'"
     src="{{dwarfScreen}}.png" 
