@@ -1,6 +1,6 @@
 <h2>Projects</h2>
 <h4>Table of Contents</h4>
-<ol class="table" ng-init="parent='#!projects'">
+<ol class="table" ng-init="parent='#!knowledgebase'">
     
     <a href="{{parent}}#Dwarves">
         <li class="">
@@ -19,10 +19,22 @@
             GameJam 2016
         </li>
     </a>
-    
-    <a href="{{parent}}#testc">
-        <li class="">
 
+    <a href="{{parent}}#King">
+        <li class="">
+            The Mad King AI
+        </li>
+    </a>
+
+    <a href="{{parent}}#Pawn">
+        <li class="">
+            Pawn AI
+        </li>
+    </a>
+
+    <a href="{{parent}}#Trucks">
+        <li class="">
+            Trucks and Packages
         </li>
     </a>
 </ol>
@@ -49,7 +61,7 @@
     Overall the team worked diligently and spent many weekends fixing unforseen problems and efficiency issues.
     The final result was presented at Bartari to the general public and did well for itself. 
     <br>
-    <a href="https://github.com/LucrativeHippo/Dwarves">GitHub</a>
+    <a class="alert-link" href="https://github.com/LucrativeHippo/Dwarves">GitHub</a>
 </p>
 <img class="img-fluid" ng-init="dwarfScreen='files/dwarves_title'"
     src="{{dwarfScreen}}.png" 
@@ -85,6 +97,15 @@
 
 
 <h5 id="Gamejam">GameJam 2016</h5>
+<p>
+    Brawling game that supports up to four players. 
+    It contains five unique classes which are stronger to and weaker to two other classes.
+
+    This project was an enlightening experience for me as it was my first experience leading a team.
+    I learnt a lot about managing a team, prioritization of features, and facilitating communication between teammates.
+    <br>
+    <a class="alert-link" href="https://github.com/KillerGiraffeStudios/GameJam">GitHub</a>
+</p>
 <img class="img-fluid" ng-init="jamScreen='files/gamejam_screen'"
     src="{{jamScreen}}.png" 
     alt="GameJam Screenshot" 
@@ -95,3 +116,47 @@
      sizes="(max-width: 320px) 320px,
             480px"
 >
+
+<br>
+<hr>
+<br>
+
+<h5 id="King">The Mad King AI</h5>
+<p>
+    Problem put forth by our Artificial Intelligence professor for a custom game.
+    The game is an asymmetric, turn based, two player game.
+    Our challenge was to develop the game and an AI to play it. 
+    I first tested a few methods of storing in Python to compare their read and write times.
+    Unsurprisingly dictionaries are very fast in Python.
+    From here we developed the backend for the game, a Minimax search, testing, AlphaBeta pruning, and more testing.
+    <br>
+    <a class="alert-link" href="https://github.com/LucrativeHippo/the-mad-king">GitHub</a>
+</p>
+
+<br>
+<hr>
+<br>
+
+<h5 id="Pawn">Pawn AI</h5>
+<p>
+    Pawns was a custom game of chess proposed by our proffesor.
+    In this game two players control a set of five pawns that follow the basic rules of pawns:
+    can move one space forward if it is empty, can attack pawns on the forward diagonols.
+    I developed a
+    <br>
+    <a class="alert-link" href="https://github.com/aj3x/PythonPawnAI">GitHub</a>
+</p>
+
+<br>
+<hr>
+<br>
+
+<h5 id="Trucks">Truck and Packages</h5>
+<p>
+    An assignment for my Artificial Intelligence course.
+    I developed an algorithm to determine the best way to pickup and deliver packages from a set origin.
+    At first I decided to use distance traveled as my metric.
+    
+    <br>
+    <a class="alert-link" href="https://github.com/LucrativeHippo/317Assign1">GitHub</a>
+</p>
