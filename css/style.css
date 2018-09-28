@@ -5,8 +5,15 @@
 
 html{
     color: rgb(0, 0, 0);
-    background: var(--html);
+    background: var(--back); /* convert to --html for debug*/
     /* rgb(235, 235, 235);    */
+}
+
+nav a:hover{
+    background-color: lightgrey;
+}
+nav{
+    border-bottom: inset 1px;
 }
 
 body{
@@ -35,6 +42,7 @@ footer{
 footer a img{
     width: 40px;
     height: 40px;
+    float: right;
 }
 footer a img:hover{
     filter: contrast(50%);
@@ -48,4 +56,25 @@ footer a img:hover{
 code{
     background: darkslategray;
     max-height: 400px;
+}
+
+.btn-link{
+    font-weight: bold;
+}
+
+.foot-text{
+    text-align: center;
+    vertical-align: middle;
+    font-family: italic;
+    color:grey;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* Specific rule for mobile footer */
+@media(max-width:600px){
+    footer .container .row .col{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
