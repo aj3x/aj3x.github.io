@@ -1,73 +1,44 @@
 <h2>Portfolio</h2>
-<script>
-    var xmlhttp = new XMLHttpRequest();
-    var projectList;
-    xmlhttp.onreadystatechange = function() {
-        if(this.readyState == 4 && this.status == 200){
-            projectList = JSON.parse(this.responseText);
-        }
-    };
-    xmlhttp.open("GET", "app/projects-list.json");
-    xmlhttp.send();
-    
-</script>
-<!-- <h4>Table of Contents</h4>
-<ol class="table" ng-init="parent='#!knowledgebase'">
-    
-    <a href="{{parent}}#Dwarves">
-        <li class="">
-            The Dwarves at Hielthe Mine
-        </li>
-    </a>
-
-    <a href="{{parent}}#Bomber">
-        <li class="">
-            BomberBoy
-        </li>
-    </a>
-    
-    <a href="{{parent}}#Gamejam">
-        <li class="">
-            GameJam 2016
-        </li>
-    </a>
-
-    <a href="{{parent}}#King">
-        <li class="">
-            The Mad King AI
-        </li>
-    </a>
-
-    <a href="{{parent}}#Pawn">
-        <li class="">
-            Pawn AI
-        </li>
-    </a>
-
-    <a href="{{parent}}#Trucks">
-        <li class="">
-            Trucks and Packages
-        </li>
-    </a>
-</ol> -->
-
 
 <div class="accordion" id="accordionProjects">
+    <ng-template let-id="Web">
+        <div class="card" id="{{id}}">
+            <div class="card-header" id="heading{{id}}">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{id}}" aria-expanded="false" aria-controls="collapse{{id}}">
+                        This Website!
+                    </button>
+                </h5>
+            </div>
+            <div id="collapse{{id}}" class="collapse" aria-labelledby="heading{{id}}" data-parent="#accordionProjects">
+                <div class="card-body">
+                    <p>
+                        I developed this website using mainly Angular, Bootstrap, and my own time.
+                    </p>
+                    <a href="https://github.com/aj3x/aj3x.github.io">
+                        <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </ng-template>
     
-    <div class="card" ng-init="id='Web'" id="{{id}}">
-        <div class="card-header" id="heading{{id}}">
+    <div class="card" ng-init="id2='Sudoku'" id="{{id2}}">
+        <div class="card-header" id="heading{{id2}}">
             <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{id}}" aria-expanded="false" aria-controls="collapse{{id}}">
-                    This Website!
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{id2}}" aria-expanded="false" aria-controls="collapse{{id2}}">
+                    Sudoku Solver
                 </button>
             </h5>
         </div>
-        <div id="collapse{{id}}" class="collapse" aria-labelledby="heading{{id}}" data-parent="#accordionProjects">
+        <div id="collapse{{id2}}" class="collapse" aria-labelledby="heading{{id2}}" data-parent="#accordionProjects">
             <div class="card-body">
                 <p>
-                    I developed this website using mainly Angular, Bootstrap, and my own time.
+                    An app created to solve Sudoku puzzles using Python and Qt for backend and GUI.
+                    I use a trial and error based approach that reduces the search space quickly by making steps that are guaranteed to be valid,
+                    checking for any spaces that will lead to future problems, and selecting squares with the smallest number of possiblities.
                 </p>
-                <a href="https://github.com/aj3x/aj3x.github.io">
+                <a href="https://github.com/aj3x/SudokuSolver">
                     <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
                 </a>
             </div>
@@ -130,10 +101,10 @@
                     Overall the team worked diligently and spent many weekends fixing unforseen problems and efficiency issues.
                     The final result was presented at Bartari to the general public and did well for itself. 
                     <br>
-                    <a class="alert-link" href="https://github.com/LucrativeHippo/Dwarves">
-                        <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
-                    </a>
                 </p>
+                <a class="alert-link" href="https://github.com/LucrativeHippo/Dwarves">
+                    <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
+                </a>
                 <img class="img-fluid" ng-init="dwarfScreen='files/dwarves_title'"
                     src="{{dwarfScreen}}.png" 
                     alt="GameJam Screenshot" 
