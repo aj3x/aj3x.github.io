@@ -78,3 +78,9 @@ code{
         padding-right: 0px;
     }
 }
+
+@media(max-width:445px){
+    .foot-text{
+        margin-top: -4px;
+    }
+}

@@ -44,9 +44,9 @@
     app.config(function($routeProvider) {
         $routeProvider
         .when("/", {
-            templateUrl : "main.htm"
+            /* templateUrl : "main.htm"
         })
-        .when("/readme", {
+        .when("/readme", { */
             templateUrl : "about.htm"
         })
         .when("/knowledgebase", {
@@ -54,6 +54,9 @@
         })
         .when("/foo", {
             templateUrl : "bar.htm"
+        })
+        .when("/contact",{
+            templateUrl : "contact.htm"
         });
     });
     app.controller()
