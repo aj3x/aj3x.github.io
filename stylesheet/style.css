@@ -39,10 +39,11 @@ footer{
     background-image: url("../files/GitHub-Mark-32px.png")
 } */
 
-footer a img{
+img{
     width: 40px;
     height: 40px;
     float: right;
+    background-color: green;
 }
 footer a img:hover{
     filter: contrast(50%);

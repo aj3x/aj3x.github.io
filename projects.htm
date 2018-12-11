@@ -13,7 +13,9 @@
             <div id="collapse{{id}}" class="collapse" aria-labelledby="heading{{id}}" data-parent="#accordionProjects">
                 <div class="card-body">
                     <p>
-                        I developed this website using mainly Angular, Bootstrap, and my own time.
+                        I developed this website using mainly Angular, Bootstrap, Less, and my own time.
+                        I also have a couple of other websites one under wordpress at <a href="www.aj3x.ca">aj3x.ca</a>
+                        and one I host from my own server at <a href="www.game.aj3x.ca">game.aj3x.ca</a>
                     </p>
                     <a href="https://github.com/aj3x/aj3x.github.io">
                         <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
@@ -22,6 +24,30 @@
             </div>
         </div>
     </ng-template>
+    
+    <div class="card" ng-init="id3='redmarket'" id="{{id3}}">
+        <div class="card-header" id="heading{{id3}}">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{id3}}" aria-expanded="false" aria-controls="collapse{{id3}}">
+                    Red Markets React App
+                </button>
+            </h5>
+        </div>
+        <div id="collapse{{id3}}" class="collapse" aria-labelledby="heading{{id3}}" data-parent="#accordionProjects">
+            <div class="card-body">
+                <p>
+                    A web application I developed using Angular, Bootstrap, Less, and React for keeping track of characters 
+                    int the pen and paper game 'Red Markets'.
+                    This application uses some other packages in react such as <a href="https://www.npmjs.com/package/react-router-dom">react-router-dom</a>
+                    as well as <a href="https://www.npmjs.com/package/rc-slider">rc-slider</a>.
+                </p>
+                <a href="https://github.com/aj3x/red-markets-reactapp">
+                    <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
+                </a>
+            </div>
+        </div>
+    </div>
+
     
     <div class="card" ng-init="id2='Sudoku'" id="{{id2}}">
         <div class="card-header" id="heading{{id2}}">
@@ -56,10 +82,10 @@
         <div id="collapseGamejam2018" class="collapse" aria-labelledby="headingGamejam2018" data-parent="#accordionProjects">
             <div class="card-body">
                 <p>
-                    We developed a chaotic cooperative game where players try to fight the forces of nature as they attempt to
-                    direct the "Mothership" that they are all tied together to.
+                    We developed <b>Force of Nature</b> a chaotic cooperative game where players fight the forces 
+                    of nature as they attempt to direct the "Mothership" that they all control.
                     Everything put into the game was developed by the team from code to drawings to sound.
-                    I acted as testing and QA tester, as well as developing code for the ships, UI, and pair programming with other members of the team.
+                    I developed code for the ships, UI, tested code, and pair programmed with other members of the team.
                 </p>
                 
                 <a href="https://github.com/KillerGiraffeStudios/GameJamMay2018">
