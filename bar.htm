@@ -1,5 +1,44 @@
 I don't know what you expected here ;)
 
+<script src="https://mcapi.us/scripts/minecraft.js"></script>
+    <div class="server-status">
+      My awesome server is currently <span class="server-online"></span>!
+    </div>
+    <script>
+      MinecraftAPI.getServerStatus('www.game.aj3x.ca', {
+        port: 25565 // optional, only if you need a custom port
+      }, function (err, status) {
+        if (err) {
+          return document.querySelector('.server-status').innerHTML = 'Error loading status';
+        }
+
+        // you can change these to your own message!
+        document.querySelector('.server-online').innerHTML = status.online ? 'up' : 'down';
+      });
+      function loadDoc() {
+          var xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("demo").innerHTML = this.responseText;
+            }
+        };
+        xhttp.open("GET","https://api.mcsrvstat.us/ping/www.game.aj3x.ca");
+        xhttp.send();
+      }
+    </script>
+
 <!-- 
     TODO: Hover on specialized word reveals layman's definition
  -->
+ Proficient:<br>
+ Java | Python | Go | C# | C++ | HTML5 | CSS | Bash<br>
+Experienced:<br>
+ C | Shell | MATLAB | SQL | JavaScript | PHP<br>
+Familiar:<br>
+ Objective-C | Haskell | Assembly | Corba | Erlang | Prolog | Node.js | NPM | LaTeX | Ionic<br>
+IDEs and Tools:<br>
+Git | Slack | Unity | Trello | Visual Studio | PyCharm | GoLand | IntelliJ | NetBeans | GIMP Blender | Xcode<br>
+
+•	Fluent in English and Spanish<br>
+•	Enjoys preparing Spanish, German, and classical cuisine<br>
+
