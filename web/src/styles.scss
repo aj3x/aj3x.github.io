@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+/*
+#0b4053 #2f8590 #88c38f #d3b248 #f9f5cb
+
+#f1f0ef #d0ada0 #a0abcc #929298 #4d3d82
+
+
+#f5f4f7 #d66e65 #627c9a #8c5161 #2b2f4e
+
+
+#393544  #34352f #34352f
+
+
+#ec6b2d #333333 #0d0f05 #777870
+
+
+#fbfbfb #558a86 #0f0a01 #08327d
+
+
+#a63e14 #558a86 #f1f2f0 #bfbabe
+#303030 #3dbd5d #f4f4f4 #f77e5e
+#46454b #00aabb #e0e5da #f43530
+#dfe0e2 #a5a6a9 #2f292b #f45844
+#0f0a01 #eaded0 #b7c7bd #dbb700
+#e4e6dd #000003 #666666 #ee8012
+#35342f #f1f2f0 #37bbe4 #e1e0dd
+*/
+
+@font-face{
+    font-family: modern-sans;
+    src: url(assets/font/ModernSans-Light.otf)
+}
+
+@font-face{
+    font-family: test;
+    src: url(assets/font/GeosansLight.ttf);
+}
+
+body{
+    background: slategray;
+    margin: 0;
+    // font-style: oblique;
+    // font-family: sans-serif;
+    font-family: 'test', 'modern-sans', 'Arial Narrow', Arial, sans-serif;
+    // font-weight: normal;
+    color: whitesmoke;
+    // font-family: sans-serif;
+}
+nav{
+    font-size: 1.5em
+}

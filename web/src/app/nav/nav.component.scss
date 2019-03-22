@@ -1,0 +1,30 @@
+$bg-color: #3f3f3f;
+
+div{
+    background: #0f0
+}
+
+nav{
+    background-color: $bg-color;
+    padding: 4px;
+    padding-left: 0px;
+    display: inline-flex;
+    width: 100%;
+    
+    a{
+        text-decoration-line: none;
+        color: whitesmoke;
+        font-weight: bold;
+        padding: 5px;
+        float: right;
+        
+        &:hover{
+            background-color: lighten($bg-color, 10%);
+        }
+    }
+    img{
+        margin-right: auto;
+        margin-top: 4px;
+    }
+}
+
