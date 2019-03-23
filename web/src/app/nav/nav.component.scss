@@ -1,4 +1,4 @@
-$bg-color: #3f3f3f;
+$bg-color: #303030;
 
 div{
     background: #0f0
@@ -6,16 +6,16 @@ div{
 
 nav{
     background-color: $bg-color;
-    padding: 4px;
     padding-left: 0px;
     display: inline-flex;
     width: 100%;
+    font-size: 1.5em;
     
     a{
         text-decoration-line: none;
-        color: whitesmoke;
+        color: #f77e5e;
         font-weight: bold;
-        padding: 5px;
+        padding: 4px;
         float: right;
         
         &:hover{

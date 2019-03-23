@@ -18,21 +18,27 @@
 
 
 #a63e14 #558a86 #f1f2f0 #bfbabe
+
 #303030 #3dbd5d #f4f4f4 #f77e5e
+
 #46454b #00aabb #e0e5da #f43530
+
 #dfe0e2 #a5a6a9 #2f292b #f45844
+
 #0f0a01 #eaded0 #b7c7bd #dbb700
+
 #e4e6dd #000003 #666666 #ee8012
+
 #35342f #f1f2f0 #37bbe4 #e1e0dd
 */
 
 @font-face{
-    font-family: modern-sans;
+    font-family: modern sans;
     src: url(assets/font/ModernSans-Light.otf)
 }
 
 @font-face{
-    font-family: test;
+    font-family: Geosans;
     src: url(assets/font/GeosansLight.ttf);
 }
 
@@ -41,11 +47,8 @@ body{
     margin: 0;
     // font-style: oblique;
     // font-family: sans-serif;
-    font-family: 'test', 'modern-sans', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Geosans','modern sans', 'Arial Narrow', Arial, sans-serif;
     // font-weight: normal;
-    color: whitesmoke;
+    color: #f4f4f4;
     // font-family: sans-serif;
-}
-nav{
-    font-size: 1.5em
 }
