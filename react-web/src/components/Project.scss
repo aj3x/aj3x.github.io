@@ -1,11 +1,45 @@
 
 .project-card{
+  // opacity: 0;
   flex-direction: column;
   p{
     margin-bottom: 0;
   }
-  padding-top: 5px;
+  // padding-top: 5px;
+  padding-top: 20px;
+  margin-top: 30px;
+  border-top: solid 1px black
+
+  // animation: fade 2s ease-in 0s 1 normal forwards;
+  
+  // animation-name: example;
+  // animation-duration: 5s;
+  // animation-timing-function: linear;
+  // animation-delay: 2s;
+  // animation-iteration-count: infinite;
+  // animation-direction: alternate;
 }
+
+
+// @-webkit-keyframes example {
+//   0%   {background-color:red;}
+//   25%  {background-color:yellow;}
+//   50%  {background-color:blue;}
+//   75%  {background-color:green;}
+//   100% {background-color:red;}
+// }
+
+// @keyframes fade {
+//   0%   {
+//     // opacity: 0;
+//     margin-left: -400px
+//   }
+//   100% {
+//     // opacity: 1;
+//     margin-left: 0px
+//   }
+// }
+
 .project-card, .project-header, .project-main{
   display: inline-flex;
   width: 100%;
@@ -53,7 +87,7 @@ $img-size: 100px;
     margin-bottom: 0;
   }
   
-  .project-role{
+  .project-job{
     font-style: italic;
     margin-top: -5px;
     font-size: 0.95em;

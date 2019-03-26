@@ -12,13 +12,15 @@ export default class Project extends Component {
     img: PropTypes.string,
     alt: PropTypes.string,
     dates: PropTypes.string.isRequired,
-    role: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
+    job: PropTypes.string.isRequired,
+    description: PropTypes.object.isRequired, //PropTypes.string.isRequired
     languages: PropTypes.array.isRequired
   }
   render() {
+    let i=0
     let languageList = Object.values(this.props.languages).map((item) => {
-      return (<Language>{item}</Language>);
+      i += 1;
+      return (<Language key={item+i}>{item}</Language>);
     })
 
     return (
@@ -35,9 +37,9 @@ export default class Project extends Component {
             {this.props.title}
           </h4>
           
-          <div className="project-role">
+          <div className="project-job">
             {/* <p> */}
-            {this.props.role}
+            {this.props.job}
             {/* </p> */}
           </div>
         </div>
