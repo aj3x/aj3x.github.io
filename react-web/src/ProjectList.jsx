@@ -68,7 +68,7 @@ export default [
       I use a trial and error based approach that reduces the search space quickly by making steps that are guaranteed to be valid,
       checking for any spaces that will lead to future problems, and selecting squares with the smallest number of possiblities.
     </p>,
-    languages:["Python", "Qt"],
+    languages:["Python", "Qt", "Optimization"],
     git: "https://github.com/aj3x/SudokuSolver"
   },
 
@@ -134,7 +134,7 @@ export default [
       Features semi-destructible environment, room for up to 4 networked players, and easy to use mobile controls. 
       My work consisted of programming the environment and players, as well as integrating the game with the network team.
     </p>,
-    languages:["Unity", "C#"],
+    languages:["Unity", "C#", "Networking", "REST APIs"],
     git: "https://github.com/mkp003/CMPT436Project"
   },
 
