@@ -50,6 +50,11 @@
     display: inline-flex;
     flex-wrap: wrap;
   }
+
+  hr{
+    width: 100%;
+    margin: 1px 0
+  }
 }
 
 
@@ -111,6 +116,9 @@ $img-size: 100px;
   p{
     font-size: 1em;
     margin-bottom: 0px;
+  }
+  ul{
+    list-style-type: square
   }
 }
 
