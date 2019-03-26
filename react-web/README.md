@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Installs
+Run the following code to install:
+
+`npm i -S react react-dom react-mail-form`
+
+
 ## Available Scripts
 
 In the project directory, you can run:
