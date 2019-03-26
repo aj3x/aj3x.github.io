@@ -1,0 +1,13 @@
+.grain{
+  background: url("../files/noise.jpg");
+  background-size: auto;
+  background-size: cover;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  z-index: 99;
+  opacity: 0.1;
+  -webkit-transition: ease 0.2s;
+  transition: ease 0.2s;
+  pointer-events: none;
+}

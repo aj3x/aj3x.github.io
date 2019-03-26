@@ -1,309 +1,310 @@
 <h2>Portfolio</h2>
 
 <div class="accordion" id="accordionProjects">
-    <ng-template let-id="Web">
-        <div class="card" id="{{id}}">
-            <div class="card-header" id="heading{{id}}">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{id}}" aria-expanded="false" aria-controls="collapse{{id}}">
-                        This Website!
-                    </button>
-                </h5>
-            </div>
-            <div id="collapse{{id}}" class="collapse" aria-labelledby="heading{{id}}" data-parent="#accordionProjects">
-                <div class="card-body">
-                    <p>
-                        I developed this website using mainly Angular, Bootstrap, Less, and my own time.
-                        I also have a couple of other websites one under wordpress at <a href="www.aj3x.ca">aj3x.ca</a>
-                        and one I host from my own server at <a href="www.game.aj3x.ca">game.aj3x.ca</a>
-                    </p>
-                    <a href="https://github.com/aj3x/aj3x.github.io">
-                        <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
-                    </a>
-                </div>
-            </div>
+  <ng-template let-id="Web">
+    <div class="card" id="{{id}}">
+      <div class="card-header" id="heading{{id}}">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{id}}" aria-expanded="false" aria-controls="collapse{{id}}">
+            This Website!
+          </button>
+        </h5>
+      </div>
+      <div id="collapse{{id}}" class="collapse" aria-labelledby="heading{{id}}" data-parent="#accordionProjects">
+        <div class="card-body">
+          <p>
+            I developed this website using Angular, Bootstrap, Less, and my own time.
+            I also have a couple of other websites one under wordpress at <a href="www.aj3x.ca">aj3x.ca</a>
+            and one I host from my own server at <a href="www.game.aj3x.ca">game.aj3x.ca</a>. 
+          </p>
+          <a href="https://github.com/aj3x/aj3x.github.io">
+            <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
+          </a>
         </div>
-    </ng-template>
-    
-    <div class="card" ng-init="id3='redmarket'" id="{{id3}}">
-        <div class="card-header" id="heading{{id3}}">
-            <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{id3}}" aria-expanded="false" aria-controls="collapse{{id3}}">
-                    Red Markets React App
-                </button>
-            </h5>
-        </div>
-        <div id="collapse{{id3}}" class="collapse" aria-labelledby="heading{{id3}}" data-parent="#accordionProjects">
-            <div class="card-body">
-                <p>
-                    A web application I developed using Angular, Bootstrap, Less, and React for keeping track of characters 
-                    int the pen and paper game 'Red Markets'.
-                    This application uses some other packages in react such as <a href="https://www.npmjs.com/package/react-router-dom">react-router-dom</a>
-                    as well as <a href="https://www.npmjs.com/package/rc-slider">rc-slider</a>.
-                </p>
-                <a href="https://github.com/aj3x/red-markets-reactapp">
-                    <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
-                </a>
-            </div>
-        </div>
+      </div>
     </div>
-
-    
-    <div class="card" ng-init="id2='Sudoku'" id="{{id2}}">
-        <div class="card-header" id="heading{{id2}}">
-            <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{id2}}" aria-expanded="false" aria-controls="collapse{{id2}}">
-                    Sudoku Solver
-                </button>
-            </h5>
-        </div>
-        <div id="collapse{{id2}}" class="collapse" aria-labelledby="heading{{id2}}" data-parent="#accordionProjects">
-            <div class="card-body">
-                <p>
-                    An app created to solve Sudoku puzzles using Python and Qt for backend and GUI.
-                    I use a trial and error based approach that reduces the search space quickly by making steps that are guaranteed to be valid,
-                    checking for any spaces that will lead to future problems, and selecting squares with the smallest number of possiblities.
-                </p>
-                <a href="https://github.com/aj3x/SudokuSolver">
-                    <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
-                </a>
-            </div>
-        </div>
+  </ng-template>
+  
+  <div class="card" ng-init="id3='redmarket'" id="{{id3}}">
+    <div class="card-header" id="heading{{id3}}">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{id3}}" aria-expanded="false" aria-controls="collapse{{id3}}">
+          Red Markets React App
+        </button>
+      </h5>
     </div>
-
-    <div class="card" id="Gamejam2018">
-        <div class="card-header" id="headingGamejam2018">
-            <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseGamejam2018" aria-expanded="false" aria-controls="collapseGamejam2018">
-                    GameJam 2018
-                </button>
-            </h5>
-        </div>
-        <div id="collapseGamejam2018" class="collapse" aria-labelledby="headingGamejam2018" data-parent="#accordionProjects">
-            <div class="card-body">
-                <p>
-                    We developed <b>Force of Nature</b> a chaotic cooperative game where players fight the forces 
-                    of nature as they attempt to direct the "Mothership" that they all control.
-                    Everything put into the game was developed by the team from code to drawings to sound.
-                    I developed code for the ships, UI, tested code, and pair programmed with other members of the team.
-                </p>
-                
-                <a href="https://github.com/KillerGiraffeStudios/GameJamMay2018">
-                    <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
-                </a>
-            </div>
-        </div>
+    <div id="collapse{{id3}}" class="collapse" aria-labelledby="heading{{id3}}" data-parent="#accordionProjects">
+      <div class="card-body">
+        <p>
+          A web application I developed using Angular, Bootstrap, Less, and React for keeping track of characters 
+          int the pen and paper game 'Red Markets'.
+          This application uses some other packages in react such as <a href="https://www.npmjs.com/package/react-router-dom">react-router-dom</a>
+          as well as <a href="https://www.npmjs.com/package/rc-slider">rc-slider</a>.
+        </p>
+        <a href="https://github.com/aj3x/red-markets-reactapp">
+          <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
+        </a>
+      </div>
     </div>
-
-    <div class="card" id="Dwarves">
-        <div class="card-header" id="headingDwarves">
-            <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseDwarves" aria-expanded="false" aria-controls="collapseDwarves">
-                    The Dwarves at Hielthe Mine
-                </button>
-            </h5>
-        </div>
-        <div id="collapseDwarves" class="collapse" aria-labelledby="headingDwarves" data-parent="#accordionProjects">
-            <div class="card-body">
-                <p>
-                    My team and I developed this game for our Game Design Workshop class(CMPT 406). 
-                    We decided on creating a procedurally generated game wthat focused on interactions with NPCs.
-                    We developed the game using Unity and utilized Agile methodologies. 
-                    We met twice a week, once for our daily standups and the other for any questions, integrating issues, and as a general work period.
-                </p>
-                <p>
-                    The game is procedurally generated using Perlin noise for resources and terrain. 
-                    Caves are spawned on the map and can be entered. We used cellular automaton to create the interiors. 
-                    From here we scattered events, resources, and enemies around the cave. 
-                    There are two main oppenents the player faces weather and elemental penguins. 
-                    The penguins spawn during extreme weather and attack whichever character is in range.
-                    The player is given a grace period before this to allow them to develop their town center to help defend against them.
-                    The AI uses dynamic nav meshes to get around.
-                    To reduce the system load, only selected areas are generated dynamically around: player, towncenter, and outposts.
-                    <br>
-                    I worked on numerous aspects of the game throughout development. The majority of my time was spent on AI, NavMesh, terrain
-                    generation, resource generation, and improving efficiency of the entire system.
-                    As well I helped team members design, develop, and integrate their code into the project.
-                    Overall the team worked diligently and spent many weekends fixing unforseen problems and efficiency issues.
-                    The final result was presented at Bartari to the general public and did well for itself. 
-                    <br>
-                </p>
-                <a class="alert-link" href="https://github.com/LucrativeHippo/Dwarves">
-                    <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
-                </a>
-                <img class="img-fluid" ng-init="dwarfScreen='files/dwarves_title'"
-                    src="{{dwarfScreen}}.png" 
-                    alt="GameJam Screenshot" 
-                    title="Are those... penguins?"
-                    srcset="{{dwarfScreen}}_320.png 320w,
-                            {{dwarfScreen}}_480.png 480w,
-                            {{dwarfScreen}}_800.png 800w"
-                    sizes="(max-width: 320px) 320px,
-                            480px"
-                >
-            </div>
-        </div>
+  </div>
+  
+  
+  <div class="card" ng-init="id2='Sudoku'" id="{{id2}}">
+    <div class="card-header" id="heading{{id2}}">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse{{id2}}" aria-expanded="false" aria-controls="collapse{{id2}}">
+          Sudoku Solver
+        </button>
+      </h5>
     </div>
-
-    <!-- <br>
+    <div id="collapse{{id2}}" class="collapse" aria-labelledby="heading{{id2}}" data-parent="#accordionProjects">
+      <div class="card-body">
+        <p>
+          An app created to solve Sudoku puzzles using Python and Qt for backend and GUI.
+          I use a trial and error based approach that reduces the search space quickly by making steps that are guaranteed to be valid,
+          checking for any spaces that will lead to future problems, and selecting squares with the smallest number of possiblities.
+        </p>
+        <a href="https://github.com/aj3x/SudokuSolver">
+          <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card" id="Gamejam2018">
+    <div class="card-header" id="headingGamejam2018">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseGamejam2018" aria-expanded="false" aria-controls="collapseGamejam2018">
+          GameJam 2018
+        </button>
+      </h5>
+    </div>
+    <div id="collapseGamejam2018" class="collapse" aria-labelledby="headingGamejam2018" data-parent="#accordionProjects">
+      <div class="card-body">
+        <p>
+          We developed <b>Force of Nature</b> a chaotic cooperative game where players fight the forces 
+          of nature as they attempt to direct the "Mothership" that they all control.
+          Everything put into the game was developed by the team from code to drawings to sound.
+          I developed code for the ships, UI, tested code, and pair programmed with other members of the team.
+        </p>
+        
+        <a href="https://github.com/KillerGiraffeStudios/GameJamMay2018">
+          <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card" id="Dwarves">
+    <div class="card-header" id="headingDwarves">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseDwarves" aria-expanded="false" aria-controls="collapseDwarves">
+          The Dwarves at Hielthe Mine
+        </button>
+      </h5>
+    </div>
+    <div id="collapseDwarves" class="collapse" aria-labelledby="headingDwarves" data-parent="#accordionProjects">
+      <div class="card-body">
+        <p>
+          My team and I developed this game for our Game Design Workshop class(CMPT 406). 
+          We decided on creating a procedurally generated game wthat focused on interactions with NPCs.
+          We developed the game using Unity and utilized Agile methodologies. 
+          We met twice a week, once for our daily standups and the other for any questions, integrating issues, and as a general work period.
+        </p>
+        <p>
+          The game is procedurally generated using Perlin noise for resources and terrain. 
+          Caves are spawned on the map and can be entered. We used cellular automaton to create the interiors. 
+          From here we scattered events, resources, and enemies around the cave. 
+          There are two main oppenents the player faces weather and elemental penguins. 
+          The penguins spawn during extreme weather and attack whichever character is in range.
+          The player is given a grace period before this to allow them to develop their town center to help defend against them.
+          The AI uses dynamic nav meshes to get around.
+          To reduce the system load, only selected areas are generated dynamically around: player, towncenter, and outposts.
+          <br>
+          I worked on numerous aspects of the game throughout development. The majority of my time was spent on AI, NavMesh, terrain
+          generation, resource generation, and improving efficiency of the entire system.
+          As well I helped team members design, develop, and integrate their code into the project.
+          Overall the team worked diligently and spent many weekends fixing unforseen problems and efficiency issues.
+          The final result was presented at Bartari to the general public and did well for itself. 
+          <br>
+        </p>
+        <a class="alert-link" href="https://github.com/LucrativeHippo/Dwarves">
+          <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
+        </a>
+        <img class="img-fluid" ng-init="dwarfScreen='files/dwarves_title'"
+        src="{{dwarfScreen}}.png" 
+        alt="GameJam Screenshot" 
+        title="Are those... penguins?"
+        srcset="{{dwarfScreen}}_320.png 320w,
+        {{dwarfScreen}}_480.png 480w,
+        {{dwarfScreen}}_800.png 800w"
+        sizes="(max-width: 320px) 320px,
+        480px"
+        >
+      </div>
+    </div>
+  </div>
+  
+  <!-- <br>
     <hr>
     <br> -->
     
     <div class="card" id="Bomber">
-        <div class="card-header" id="headingBomber">
-            <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseBomber" aria-expanded="false" aria-controls="collapseBomber">
-                    BomberBoy
-                </button>
-            </h5>
+      <div class="card-header" id="headingBomber">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseBomber" aria-expanded="false" aria-controls="collapseBomber">
+            BomberBoy
+          </button>
+        </h5>
+      </div>
+      <div id="collapseBomber" class="collapse" aria-labelledby="headingBomber" data-parent="#accordionProjects">
+        <div class="card-body">
+          <p>Bomberman replica with networked mobile multiplayer and Facebook and Twitter integration. 
+            Features semi-destructible environment, room for up to 4 networked players, and easy to use mobile controls. 
+            My work consisted of programming the environment and players, as well as integrating the game with the network team.
+            <br>
+          </p>
+          <a class="alert-link" href="https://github.com/mkp003/CMPT436Project">
+            <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
+          </a>
+          <img class="img-fluid" ng-init="bomberScreen='files/bomber_screen'"
+          src="{{bomberScreen}}.png" 
+          alt="BomberBoy blew up this image." 
+          title="Cool Guys Don't Look at Explosions!... but blue guys do" 
+          srcset="{{bomberScreen}}_320.png 320w,
+          {{bomberScreen}}_480.png 480w,
+          {{bomberScreen}}_800.png 800w"
+          sizes="(max-width: 320px) 320px,
+          480px"
+          >
         </div>
-        <div id="collapseBomber" class="collapse" aria-labelledby="headingBomber" data-parent="#accordionProjects">
-            <div class="card-body">
-                <p>Bomberman replica with networked mobile multiplayer and Facebook and Twitter integration. 
-                    Features semi-destructible environment, room for up to 4 networked players, and easy to use mobile controls. 
-                    My work consisted of programming the environment and players, as well as integrating the game with the network team.
-                    <br>
-                </p>
-                <a class="alert-link" href="https://github.com/mkp003/CMPT436Project">
-                    <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
-                </a>
-                <img class="img-fluid" ng-init="bomberScreen='files/bomber_screen'"
-                    src="{{bomberScreen}}.png" 
-                    alt="BomberBoy blew up this image." 
-                    title="Cool Guys Don't Look at Explosions!... but blue guys do" 
-                    srcset="{{bomberScreen}}_320.png 320w,
-                            {{bomberScreen}}_480.png 480w,
-                            {{bomberScreen}}_800.png 800w"
-                    sizes="(max-width: 320px) 320px,
-                            480px"
-                >
-            </div>
-        </div>
+      </div>
     </div>
-
-
+    
+    
     <div class="card" id="Gamejam2016">
-        <div class="card-header" id="headingGamejam2016">
-            <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseGamejam2016" aria-expanded="false" aria-controls="collapseGamejam2016">
-                    GameJam 2016
-                </button>
-            </h5>
+      <div class="card-header" id="headingGamejam2016">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseGamejam2016" aria-expanded="false" aria-controls="collapseGamejam2016">
+            GameJam 2016
+          </button>
+        </h5>
+      </div>
+      <div id="collapseGamejam2016" class="collapse" aria-labelledby="headingGamejam2016" data-parent="#accordionProjects">
+        <div class="card-body">
+          <p>
+            Brawling game that supports up to four players. 
+            It contains five unique classes which are stronger and weaker to two other classes.
+            
+            
+            
+            This project was an enlightening experience for me as it was my first experience leading a team.
+            I learnt a lot about managing a team, prioritization of features, and facilitating communication between teammates.
+            After the GameJam, I repaired a number of sections of code that we didn't have time to fix.
+            <br>
+          </p>
+          <a class="alert-link" href="https://github.com/KillerGiraffeStudios/GameJam">
+            <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
+          </a>
+          <img class="img-fluid" ng-init="jamScreen='files/gamejam_screen'"
+          src="{{jamScreen}}.png" 
+          alt="GameJam Screenshot" 
+          title="Super Intense Action Sequence #374"
+          srcset="{{jamScreen}}_320.png 320w,
+          {{jamScreen}}_480.png 480w,
+          {{jamScreen}}_800.png 800w"
+          sizes="(max-width: 320px) 320px,
+          480px"
+          >
         </div>
-        <div id="collapseGamejam2016" class="collapse" aria-labelledby="headingGamejam2016" data-parent="#accordionProjects">
-            <div class="card-body">
-                <p>
-                    Brawling game that supports up to four players. 
-                    It contains five unique classes which are stronger and weaker to two other classes.
-
-
-
-                    This project was an enlightening experience for me as it was my first experience leading a team.
-                    I learnt a lot about managing a team, prioritization of features, and facilitating communication between teammates.
-                    After the GameJam, I repaired a number of sections of code that we didn't have time to fix.
-                    <br>
-                </p>
-                <a class="alert-link" href="https://github.com/KillerGiraffeStudios/GameJam">
-                    <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
-                </a>
-                <img class="img-fluid" ng-init="jamScreen='files/gamejam_screen'"
-                    src="{{jamScreen}}.png" 
-                    alt="GameJam Screenshot" 
-                    title="Super Intense Action Sequence #374"
-                    srcset="{{jamScreen}}_320.png 320w,
-                            {{jamScreen}}_480.png 480w,
-                            {{jamScreen}}_800.png 800w"
-                    sizes="(max-width: 320px) 320px,
-                            480px"
-                >
-            </div>
-        </div>
+      </div>
     </div>
-
+    
     <div class="card" id="King">
-        <div class="card-header" id="headingKing">
-            <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseKing" aria-expanded="false" aria-controls="collapseKing">
-                    The Mad King AI
-                </button>
-            </h5>
+      <div class="card-header" id="headingKing">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseKing" aria-expanded="false" aria-controls="collapseKing">
+            The Mad King AI
+          </button>
+        </h5>
+      </div>
+      <div id="collapseKing" class="collapse" aria-labelledby="headingKing" data-parent="#accordionProjects">
+        <div class="card-body">
+          <p>
+            Problem put forth by our Artificial Intelligence professor for a custom game.
+            The game is an asymmetric, turn based, two player game.
+            Our challenge was to develop the game and an AI to play it. 
+            I first tested a few methods of storing in Python to compare their read and write times.
+            Unsurprisingly dictionaries are very fast in Python.
+            From here we developed the backend for the game, a Minimax search, testing, AlphaBeta pruning, and more testing.
+            <br>
+          </p>
+          <a class="alert-link" href="https://github.com/LucrativeHippo/the-mad-king">
+            <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
+          </a>
         </div>
-        <div id="collapseKing" class="collapse" aria-labelledby="headingKing" data-parent="#accordionProjects">
-            <div class="card-body">
-                <p>
-                    Problem put forth by our Artificial Intelligence professor for a custom game.
-                    The game is an asymmetric, turn based, two player game.
-                    Our challenge was to develop the game and an AI to play it. 
-                    I first tested a few methods of storing in Python to compare their read and write times.
-                    Unsurprisingly dictionaries are very fast in Python.
-                    From here we developed the backend for the game, a Minimax search, testing, AlphaBeta pruning, and more testing.
-                    <br>
-                </p>
-                <a class="alert-link" href="https://github.com/LucrativeHippo/the-mad-king">
-                    <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
-                </a>
-            </div>
-        </div>
+      </div>
     </div>
-
+    
     <div class="card" id="Pawn">
-        <div class="card-header" id="headingPawn">
-            <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapsePawn" aria-expanded="false" aria-controls="collapsePawn">
-                    Pawn AI
-                </button>
-            </h5>
+      <div class="card-header" id="headingPawn">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapsePawn" aria-expanded="false" aria-controls="collapsePawn">
+            Pawn AI
+          </button>
+        </h5>
+      </div>
+      <div id="collapsePawn" class="collapse" aria-labelledby="headingPawn" data-parent="#accordionProjects">
+        <div class="card-body">
+          <p>
+            Pawns was a custom game of chess proposed by our professor.
+            In this game two players control a set of five pawns that follow the basic rules of pawns:
+            can move one space forward if it is empty, can attack pawns on the forward diagonols.
+            I both designed and developed the whole program in Python.
+            <br>
+            I started with programming the game itself and developing a system to play it manually.
+            From here I then expanded this system to include all possible moves a player may have.
+            I then developed a metric to measure a board's current state and terminal states.
+            Using Mini-Max I tested a number of basic states and expanded on the system to include depth limits.
+            After more testing I added AlphaBeta pruning and continual testing.
+            <br>
+          </p>
+          <a class="alert-link" href="https://github.com/aj3x/PythonPawnAI">
+            <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
+          </a>
         </div>
-        <div id="collapsePawn" class="collapse" aria-labelledby="headingPawn" data-parent="#accordionProjects">
-            <div class="card-body">
-                <p>
-                    Pawns was a custom game of chess proposed by our professor.
-                    In this game two players control a set of five pawns that follow the basic rules of pawns:
-                    can move one space forward if it is empty, can attack pawns on the forward diagonols.
-                    I both designed and developed the whole program in Python.
-                    <br>
-                    I started with programming the game itself and developing a system to play it manually.
-                    From here I then expanded this system to include all possible moves a player may have.
-                    I then developed a metric to measure a board's current state and terminal states.
-                    Using Mini-Max I tested a number of basic states and expanded on the system to include depth limits.
-                    After more testing I added AlphaBeta pruning and continual testing.
-                    <br>
-                </p>
-                <a class="alert-link" href="https://github.com/aj3x/PythonPawnAI">
-                    <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
-                </a>
-            </div>
-        </div>
+      </div>
     </div>
-
+    
     <div class="card" id="Trucks">
-        <div class="card-header" id="headingTrucks">
-            <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTrucks" aria-expanded="false" aria-controls="collapseTrucks">
-                    Trucks and Packages
-                </button>
-            </h5>
+      <div class="card-header" id="headingTrucks">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTrucks" aria-expanded="false" aria-controls="collapseTrucks">
+            Trucks and Packages
+          </button>
+        </h5>
+      </div>
+      <div id="collapseTrucks" class="collapse" aria-labelledby="headingTrucks" data-parent="#accordionProjects">
+        <div class="card-body">
+          <p>
+            An assignment for my Artificial Intelligence course.
+            I developed an algorithm to determine the best way to pickup and deliver packages from a set origin.
+            This was an interesting problem as the heuristic used would drastically change depending on the interpretation of the question. 
+            
+            <br>
+          </p>
+          
+          <a class="alert-link" href="https://github.com/LucrativeHippo/317Assign1">
+            <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
+          </a>
         </div>
-        <div id="collapseTrucks" class="collapse" aria-labelledby="headingTrucks" data-parent="#accordionProjects">
-            <div class="card-body">
-                <p>
-                    An assignment for my Artificial Intelligence course.
-                    I developed an algorithm to determine the best way to pickup and deliver packages from a set origin.
-                    This was an interesting problem as the heuristic used would drastically change depending on the interpretation of the question. 
-                    
-                    <br>
-                </p>
-                
-                <a class="alert-link" href="https://github.com/LucrativeHippo/317Assign1">
-                    <img src="files/GitHub-Logos/GitHub_Logo.png" alt="Github" height="42px">
-                </a>
-            </div>
-        </div>
+      </div>
     </div>
-
-</div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore.js">
+    
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore.js">
     var tpl = _.template("<h1>hello: <%= name %></h1>");
     document.getElementById("Bomber").innerHTML = (tpl({name: "LOLZ"}));
-</script>
+  </script>
+  

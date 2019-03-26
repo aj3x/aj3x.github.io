@@ -1,0 +1,117 @@
+
+.project-card{
+  flex-direction: column;
+  p{
+    margin-bottom: 0;
+  }
+  padding-top: 5px;
+}
+.project-card, .project-header, .project-main{
+  display: inline-flex;
+  width: 100%;
+}
+.project-header{
+  display: block;
+  @media screen and (min-width: 768px) {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+.project-img{
+  padding: 0;
+}
+
+$img-size: 100px;
+.project-img, .project-img img{
+  width: $img-size;
+  height: $img-size;
+  @media screen and (min-width: 768px){
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.project-body{
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  @media screen and (min-width: 768px){
+    padding-left: 20px;
+  }
+}
+
+.project-title{
+
+  // margin-right: auto;
+  flex: 1 1 auto;
+
+  h4{
+    text-align: left;
+    margin-bottom: 0;
+  }
+  
+  .project-role{
+    font-style: italic;
+    margin-top: -5px;
+    font-size: 0.95em;
+  }
+}
+
+
+.project-dates{
+  font-style: italic;
+  vertical-align: bottom;
+  margin-bottom: auto;
+
+  @media screen and (min-width: width 768px){
+    margin-top: 5px;
+  }
+}
+
+
+.project-description, .project-description-mobile{
+  
+  p{
+    font-size: 1em;
+    margin-bottom: 0px;
+  }
+}
+
+.project-description{
+  @media screen and (max-width: 768px){
+    display: none;
+  }
+}
+.project-description-mobile{
+  display: none;
+  @media screen and (max-width: 768px){
+    display: block;
+  }
+}
+
+.project-footer{
+  margin-top: 10px;
+  display:inline-flex;
+
+  .project-used{
+    width: 100%;
+    margin: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  .project-link{
+    flex: 1 1 auto;
+  }
+}
+
+.project-language{
+  border-radius: 7px;
+  border: solid 1px  #aaa;
+  width: fit-content;
+  padding: 0 4px;
+  font-size: 0.8em;
+  margin-right: 5px;
+}
