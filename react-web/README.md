@@ -5,6 +5,12 @@ Run the following code to install:
 
 `npm i -S react react-dom react-mail-form`
 
+Include ```devServer: {
+      historyApiFallback: true
+    }```
+
+in the following
+`node_modules\react-scripts\config\webpack.config.js`
 
 ## Available Scripts
 
