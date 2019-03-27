@@ -1,0 +1,106 @@
+
+$back: rgb(235,235,235);
+$html: rgb(110,110,110);
+html{
+    color: #000;
+    background: $back;
+}
+
+nav{
+    border-bottom: inset rgb(0,0,0.1) 1px;
+    a:hover{
+        background-color: lightgrey;
+    }
+}
+.nav{
+    @media(min-width:445px){
+        margin-bottom: 25px;
+    }
+}
+
+body{
+    background: $back;
+}
+
+h5{
+    font-weight: bold;
+}
+
+.profile{
+    float:left; 
+    max-width: 100%;
+    margin-right:20px;
+    @media(min-width: 600px){
+        max-width:150px;
+    }
+}
+
+@media(max-width: 480px){
+    .about{
+        clear: both;
+        display: inline-block;
+    }
+    .profile{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        float:none;
+    }
+}
+
+footer{
+    padding-bottom: 20px;
+
+    a img{
+        width: 40px;
+        height: 40px;
+        float: right;
+    
+        &:hover{
+            filter: contrast(50%);
+            -webkit-filter: contrast(50%);
+        }
+    }
+}
+
+code{
+    background: darkslategray;
+    max-height: 400px;
+}
+
+.btn-link{
+    font-weight: bold;
+    height: 100%;
+    width:100%;
+    text-align: left;
+    padding: 1rem;
+}
+
+.foot-text{
+    text-align: center;
+    vertical-align: middle;
+    font-family: italic;
+    color:grey;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    @media(max-width:445px){
+        margin-top: -4px;
+    }
+}
+
+/* Specific rule for mobile footer */
+@media(max-width:600px){
+    footer .container .row .col{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
+
+.card-header{
+    padding: 0;
+}
+
+
