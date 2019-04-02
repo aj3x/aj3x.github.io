@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "ee447024857646fcd46c444d8dd3b5d9",
-    "url": "/static/media/dwarves_title.ee447024.png"
+    "revision": "b718d9673fd50e9c1893583174358544",
+    "url": "/static/media/bomber_screen_800.b718d967.png"
   },
   {
-    "revision": "606108a3bf2895176420",
-    "url": "/static/css/main.bf0756c3.chunk.css"
+    "revision": "a38a412ec336a4baa875",
+    "url": "/static/css/main.0cee3266.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "8ef4486484d132b7ae2b",
-    "url": "/static/js/2.ae1ab556.chunk.js"
+    "revision": "97fab83c5c0e9b6c519c",
+    "url": "/static/js/2.184511fd.chunk.js"
   },
   {
     "revision": "52cfb201cd3760674b7ce333932cc591",
@@ -30,6 +30,14 @@ self.__precacheManifest = [
   {
     "revision": "651b1f99ff2a79c4189f6aa1d35adc0d",
     "url": "/static/media/noise.651b1f99.jpg"
+  },
+  {
+    "revision": "a9f48286ac2a9d2a2de1b7164e1b207d",
+    "url": "/static/media/SquareSudokuSolver.a9f48286.gif"
+  },
+  {
+    "revision": "cc1c702ac78a1ee3d75e52bf27ab1c07",
+    "url": "/static/media/SudokuSolver.cc1c702a.gif"
   },
   {
     "revision": "23a7e048ac6ba7adff9aec07d7b2f9de",
@@ -52,12 +60,12 @@ self.__precacheManifest = [
     "url": "/static/media/bomber_screen_480.524316db.png"
   },
   {
-    "revision": "b718d9673fd50e9c1893583174358544",
-    "url": "/static/media/bomber_screen_800.b718d967.png"
+    "revision": "a38a412ec336a4baa875",
+    "url": "/static/js/main.4e3c6b54.chunk.js"
   },
   {
-    "revision": "606108a3bf2895176420",
-    "url": "/static/js/main.407205a0.chunk.js"
+    "revision": "ee447024857646fcd46c444d8dd3b5d9",
+    "url": "/static/media/dwarves_title.ee447024.png"
   },
   {
     "revision": "b9b2f65e3a092c66935d9176af21dce1",
@@ -108,7 +116,7 @@ self.__precacheManifest = [
     "url": "/static/media/web.67408319.png"
   },
   {
-    "revision": "07b467ac79217a2129a788c6311854b8",
+    "revision": "9e7ffd6f661757390efb92240a055dec",
     "url": "/index.html"
   }
 ];
