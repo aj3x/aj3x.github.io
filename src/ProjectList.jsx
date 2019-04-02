@@ -59,7 +59,7 @@ export default [
   {
     id:"sudoku",
     title:"Sudoku Solver",
-    img:'SudokuSolver.png',
+    img:'SquareSudokuSolver.gif',
     alt:"Sudoku",
     dates:"October 2018",
     job:"Sole Programmer",
