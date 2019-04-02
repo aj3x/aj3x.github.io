@@ -29,7 +29,7 @@ export default class Foot extends Component {
                                 //     (max-width: 64px) 64px,
                                 //     120px"
                             /></a>
-                        <a className="" href="https://linkedin.com/in/ajrussell94/" >
+                        <a className="" href="https://linkedin.com/in/aj3x/" >
                             <img src={linkedinImg}
                                 alt="LinkedIn" 
                                 title="LinkedIn"

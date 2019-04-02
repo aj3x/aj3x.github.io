@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 //   Route,
 //   Link
 // } from 'react-router-dom';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 import './Nav.scss'
 import About from './About';
 import Projects from './Projects';
