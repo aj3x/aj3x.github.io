@@ -1,11 +1,23 @@
 import React from 'react'
 
 export default [
+  // {
+  //   id: "hugm",
+  //   title: "Hugr Mobile",
+  //   // img: '',
+  //   alt: "Hugr app",
+  //   dates: "May 2019 - Present",
+  //   job: "Software Developer",
+  //   description: <p>
+
+  //   </p>,
+  //   languages: ["React", "React Native", "JavaScript", "Jest", "Realm", "AWS", "NoSQL"]
+  // },
   {
     id:"this",
     title:"This Website!",
     img:'web.png',
-    alt:"Webpage inception",
+    alt:"Webpage Inception",
     dates:"Feb 2018 - Present",
     job:"Sole Programmer",
     description:<p>
@@ -25,7 +37,7 @@ export default [
     title:"Red Markets App",
     // img:'404.jpg',
     alt:"Red Markets Main Page",
-    dates:"Nov 2018 - Present",
+    dates:"Nov 2018 - Apr 2019",
     job:"Sole Programmer",
     description:<p>
       A web application for keeping track of characters 
@@ -45,7 +57,7 @@ export default [
     title:"Screeps Web App",
     // img:'404.jpg',
     alt:"Screeps",
-    dates:"Dec 2018 - Present",
+    dates:"Dec 2018 - Apr 2019",
     job:"Sole Programmer",
     description:<p>
       A web application I am currently developing to play on a Screeps server.
