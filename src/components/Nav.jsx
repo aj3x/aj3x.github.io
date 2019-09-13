@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 // import {
 //   BrowserRouter as Router,
 //   Route,
@@ -10,9 +10,8 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import Test from './Test';
-import ReactGA from 'react-ga';
 
-export default class Nav extends Component {
+export default class Nav extends PureComponent {
   render() {
     return (
       <Router className="navbar-light">
@@ -20,7 +19,6 @@ export default class Nav extends Component {
           <Link
             className="nav-link"
             to="/" title="HelloWorld"
-            onClick={() => ReactGA.pageview('/about')}
           >
             About
           </Link>
@@ -28,7 +26,6 @@ export default class Nav extends Component {
             className="nav-link"
             to="/knowledgebase"
             title="Knowledge Base"
-            onClick={() => ReactGA.pageview('/projects')}
           >
             Portfolio
           </Link>
@@ -36,7 +33,6 @@ export default class Nav extends Component {
             className="nav-link"
             to="/contact"
             title="Contact"
-            onClick={() => ReactGA.pageview('/contact')}
           >
             Contact
           </Link>

@@ -16,7 +16,7 @@ export default [
   {
     id:"this",
     title:"This Website!",
-    img:'web.png',
+    img: "web_420.png",
     alt:"Webpage Inception",
     dates:"Feb 2018 - Present",
     job:"Sole Programmer",
@@ -60,7 +60,7 @@ export default [
     dates:"Dec 2018 - Apr 2019",
     job:"Sole Programmer",
     description:<p>
-      A web application I am currently developing to play on a Screeps server.
+      A web application to enable play on a users Screeps server.
       Currently testing and creating a new backend to support Google Authorization for logins.
     </p>,
     languages:["NodeJS", "MongoDB", "Redis", "JavaScript", "REST APIs", "React", "Sass", "Angular", "CSS", "HTML5"],
@@ -154,7 +154,7 @@ export default [
   {
     id:"gamejam2016",
     title:"GameJam 2016",
-    img:'gamejam_screen_320.png',
+    img:'gamejam_screen_480.png',
     alt:"Gamejam 2016",
     dates:"February 2016",
     job:"Team Lead",
