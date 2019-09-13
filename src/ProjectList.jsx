@@ -156,12 +156,12 @@ export default [
     title:"GameJam 2016",
     img:'gamejam_screen_320.png',
     alt:"Gamejam 2016",
-    dates:"Febraury 2016",
+    dates:"February 2016",
     job:"Team Lead",
     description:<p>
     Brawling game that supports up to four players. 
     It contains five unique classes which are stronger and weaker to two other classes.
-    This project was an enlightening experience for me as it was my first experience leading a team.
+    This project was an enlightening experience for me, as it was my first experience leading a team.
     I learnt a lot about managing a team, prioritization of features, and facilitating communication between teammates.
     After the GameJam, I repaired a number of sections of code that we didn't have time to fix.
     </p>,

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import linkedinImg from '../files/LinedIn-Black/In-Black-128px-R.png'
 import gitImg from '../files/GitHub-Mark-120px-plus.png'
+import ReactGA from 'react-ga';
 
 export default class Foot extends Component {
   render() {
@@ -18,7 +19,10 @@ export default class Foot extends Component {
                 </div>
                 <div className="col">
         
-                        <a className="" href="https://github.com/aj3x/" >
+                        <a className="" href="https://github.com/aj3x/" onClick={() => ReactGA.event({
+                        category: 'Footer',
+                        action: 'Clicked Github'
+                        })}>
                             <img src={gitImg}
                                 alt="GitHub"
                                 title="GitHub"
@@ -29,7 +33,10 @@ export default class Foot extends Component {
                                 //     (max-width: 64px) 64px,
                                 //     120px"
                             /></a>
-                        <a className="" href="https://linkedin.com/in/aj3x/" >
+                        <a className="" href="https://linkedin.com/in/aj3x/" onClick={() => ReactGA.event({
+                        category: 'Footer',
+                        action: 'Clicked LinkedIn'
+                        })}>
                             <img src={linkedinImg}
                                 alt="LinkedIn" 
                                 title="LinkedIn"

@@ -4,6 +4,7 @@ import githubTextLogo from '../files/GitHub-Logos/GitHub_Logo.png'
 import defaultProjectImage from '../files/project-img/default.png';
 import './Project.scss';
 import Grain from './Grain';
+import ReactGA from 'react-ga';
 
 export default class Project extends Component {
   static propTypes = {
@@ -85,7 +86,10 @@ export default class Project extends Component {
       {languageList}
     </div>
     <div className="project-link">
-      <a href={data.git}>
+      <a href={data.git} onClick={() => ReactGA.event({
+        category: 'Project',
+        action: `git ${data.id}`
+      })}>
         <img src={githubTextLogo} alt="Github" height="42px"/>
       </a>
     </div>
