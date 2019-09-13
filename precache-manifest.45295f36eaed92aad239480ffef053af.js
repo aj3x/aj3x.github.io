@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bac14a27a2b8b510cd96c5fb0a9262ec",
+    "revision": "33fff8c056df282e5dd2b188babc3d52",
     "url": "/index.html"
   },
   {
-    "revision": "95e2a031162dc7ec283d",
-    "url": "/static/css/main.9da754ae.chunk.css"
+    "revision": "08ac5f098c7c1fdb5466",
+    "url": "/static/css/main.690d1977.chunk.css"
   },
   {
-    "revision": "6d991acfe51566042cf7",
-    "url": "/static/js/2.de707e86.chunk.js"
+    "revision": "3aa275669f351ec707be",
+    "url": "/static/js/2.fb89ced8.chunk.js"
   },
   {
-    "revision": "95e2a031162dc7ec283d",
-    "url": "/static/js/main.45567dc4.chunk.js"
+    "revision": "08ac5f098c7c1fdb5466",
+    "url": "/static/js/main.4edd1d79.chunk.js"
   },
   {
     "revision": "a84ce4422d854dcd5598",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/404.7f074738.jpg"
   },
   {
-    "revision": "cefc20232703e5e3c24efd5f50d75e26",
-    "url": "/static/media/GitHub_Logo.cefc2023.png"
+    "revision": "96abe275d10b9b613ada79d01dbfde1a",
+    "url": "/static/media/GitHub_Logo_240.96abe275.png"
   },
   {
     "revision": "a9f48286ac2a9d2a2de1b7164e1b207d",
@@ -118,5 +118,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "67408319c1ca74169f2a9ab02b9a900a",
     "url": "/static/media/web.67408319.png"
+  },
+  {
+    "revision": "0e7d829625b6f37b0c94009bb479750a",
+    "url": "/static/media/web_420.0e7d8296.png"
   }
 ]);
