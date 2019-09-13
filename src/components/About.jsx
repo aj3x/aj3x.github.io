@@ -1,7 +1,12 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 import profile from '../files/profile.jpg'
+import ReactGA from 'react-ga';
 
-export default class About extends Component {
+export default class About extends PureComponent {
+  constructor(props) {
+    super(props);
+    ReactGA.pageview("/about");
+  }
   render() {
     return (
       <div>
@@ -12,7 +17,23 @@ export default class About extends Component {
           <p className="about">
           My name is Alexander Russell.
           I am a graduate of the University of Saskatchewan with a degree in Computer Science and a Minor in Mathematics. 
-          I am a currently a developer at <a href="http://territorial.ca">Territorial</a> working on <a href="https://territorial.ca/case-studies/hugr">Hugr</a>.
+          I have worked on various projects from games to machine learning.
+          I am eager to continue learning and improve my work.
+          I am a currently a software developer at <a
+            href="http://territorial.ca"
+            onClick={() => ReactGA.event({
+                category: "About",
+                action: "Clicked Link",
+                value: "Territorial"
+              })}>
+            Territorial
+          </a> in Saskatoon, working on the app<a
+            href="https://territorial.ca/case-studies/hugr"
+            onClick={() => ReactGA.event({
+              category: "About",
+              action: "Clicked Link",
+              value: "Hugr"
+            })}>Hugr</a>.
           </p>
           I am a driven, easygoing individual who enjoys programming, whether it be with others or on my own.
           When I'm not working I spend my spare time, hiking, swimming, playing tennis, and video games.

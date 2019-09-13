@@ -1,8 +1,13 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 import ReactContactForm from 'react-mail-form';
 import './Contact.scss'
+import ReactGA from 'react-ga';
 
-export default class Contact extends Component {
+export default class Contact extends PureComponent {
+  constructor(props) {
+    super(props);
+    ReactGA.pageview("/contact");
+  }
   render() {
     return (
       <div>

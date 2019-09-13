@@ -1,11 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Grain.scss'
 
-export default class Grain extends Component {
-  render() {
-    return (
-      <div className="grain">
-      </div>
-    )
-  }
+export default function Grain() {
+  return (
+    <div className="grain" />
+  )
 }

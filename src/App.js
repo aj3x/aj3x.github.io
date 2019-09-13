@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 // import logo from './logo.svg';
 import './App.scss';
 import Nav from './components/Nav'
 import Foot from './components/Foot'
 
-class App extends Component {
+class App extends PureComponent {
   render() {
     return (
       <div className="container">
-        <Nav></Nav>
-        <Foot></Foot>
+        <Nav />
+        <Foot />
       </div>
     );
   }
