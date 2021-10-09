@@ -27,7 +27,7 @@ export default class About extends PureComponent {
                 value: "Territorial"
               })}>
             Territorial
-          </a> in Saskatoon, working on the app<a
+          </a> in Saskatoon, working on the app <a
             href="https://territorial.ca/case-studies/hugr"
             onClick={() => ReactGA.event({
               category: "About",
