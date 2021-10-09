@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Installs
 Run the following code to install:
 
-`npm i -S react react-dom react-mail-form`
+`npm i -S react react-dom`
 
 
 ## Available Scripts
