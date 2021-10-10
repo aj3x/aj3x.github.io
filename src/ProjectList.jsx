@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default [
+const projects = [
   // {
   //   id: "hugm",
   //   title: "Hugr Mobile",
@@ -220,3 +220,5 @@ export default [
   //   git: "https://github.com/aj3x/red-markets-reactapp",
   // },
 ];
+
+export default projects;
