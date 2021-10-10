@@ -6,12 +6,9 @@ name: Node.js CI
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -29,4 +26,14 @@ jobs:
     - run: npm ci
     - run: npm test
     - run: npm run predeploy --if-present
-    - run: npm run deploy
+    # - run: npm run deploy
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
+    
