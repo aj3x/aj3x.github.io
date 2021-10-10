@@ -1,8 +1,7 @@
-import React, { PureComponent } from 'react';
-// import logo from './logo.svg';
-import './App.scss';
+import React from 'react';
 import Foot from './components/Foot';
 import Nav from './components/Nav';
+import './App.scss';
 
 function App() {
   return (
