@@ -1,7 +1,7 @@
-import React, { PureComponent } from 'react'
-import Project from './Project';
-import ProjectList from '../ProjectList'
+import React, { PureComponent } from 'react';
 import ReactGA from 'react-ga';
+import ProjectList from '../ProjectList';
+import Project from './Project';
 
 export default class Projects extends PureComponent{
   constructor(props) {

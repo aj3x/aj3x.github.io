@@ -1,9 +1,9 @@
-import React, { PureComponent } from 'react'
-import githubTextLogo from '../files/GitHub-Logos/GitHub_Logo_240.png'
-import defaultProjectImage from '../files/project-img/default.png';
-import './Project.scss';
-import Grain from './Grain';
+import React, { PureComponent } from 'react';
 import ReactGA from 'react-ga';
+import Grain from './Grain';
+import githubTextLogo from '../static/img/GitHub-Logos/GitHub_Logo_240.png';
+import defaultProjectImage from '../static/img/project-img/default.png';
+import './Project.scss';
 
 export default class Project extends PureComponent {
   render() {
@@ -19,7 +19,7 @@ export default class Project extends PureComponent {
 
   let projectImg = data.img == null
     ? defaultProjectImage
-    : require('../files/project-img/'+data.img);
+    : require('../static/img/project-img/'+data.img);
 
   return (
 <div className="project-card">

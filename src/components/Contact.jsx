@@ -1,6 +1,6 @@
-import React, { PureComponent } from 'react'
-import './Contact.scss'
+import React, { PureComponent } from 'react';
 import ReactGA from 'react-ga';
+import './Contact.scss';
 
 export default class Contact extends PureComponent {
   constructor(props) {

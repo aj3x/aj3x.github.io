@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react';
 // import logo from './logo.svg';
 import './App.scss';
-import Nav from './components/Nav'
-import Foot from './components/Foot'
+import Foot from './components/Foot';
+import Nav from './components/Nav';
 
 class App extends PureComponent {
   render() {

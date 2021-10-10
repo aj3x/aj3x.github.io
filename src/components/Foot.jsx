@@ -1,7 +1,7 @@
-import React from 'react'
-import linkedinImg from '../files/LinedIn-Black/In-Black-128px-R.png'
-import gitImg from '../files/GitHub-Mark-120px-plus.png'
+import React from 'react';
 import ReactGA from 'react-ga';
+import gitImg from '../static/img/GitHub-Mark-120px-plus.png';
+import linkedinImg from '../static/img/LinedIn-Black/In-Black-128px-R.png';
 
 export default function Foot() {
   return (

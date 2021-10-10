@@ -1,15 +1,10 @@
-import React, { PureComponent } from 'react'
-// import {
-//   BrowserRouter as Router,
-//   Route,
-//   Link
-// } from 'react-router-dom';
-import { HashRouter as Router, Route, Link } from "react-router-dom";
-import './Nav.scss'
+import React, { PureComponent } from 'react';
+import { HashRouter as Router, Link, Route } from "react-router-dom";
 import About from './About';
-import Projects from './Projects';
 import Contact from './Contact';
+import Projects from './Projects';
 import Test from './Test';
+import './Nav.scss';
 
 export default class Nav extends PureComponent {
   render() {
