@@ -1,11 +1,12 @@
-import React, { PureComponent } from 'react'
-import githubTextLogo from '../files/GitHub-Logos/GitHub_Logo_240.png'
-import defaultProjectImage from '../files/project-img/default.png';
-import './Project.scss';
-import Grain from './Grain';
+import React, { PureComponent } from 'react';
 import ReactGA from 'react-ga';
+import Grain from './Grain';
+import githubTextLogo from '../static/img/GitHub-Logos/GitHub_Logo_240.png';
+import defaultProjectImage from '../static/img/project-img/default.png';
+import ProjectImages from '../static/img/project-img';
+import './Project.scss';
 
-export default class Project extends PureComponent {
+export default class Project extends PureComponent<{data:ProjectType}> {
   render() {
   const { data } = this.props;
   let languageList = Object.values(data.languages).map((item, index) => {
@@ -17,10 +18,8 @@ export default class Project extends PureComponent {
     );
   })
 
-  let projectImg = data.img == null
-    ? defaultProjectImage
-    : require('../files/project-img/'+data.img);
-
+  let projectImg = ProjectImages[data.img||'default'];
+  
   return (
 <div className="project-card">
   <div className="project-main">
@@ -28,10 +27,8 @@ export default class Project extends PureComponent {
       <Grain />
       <img
         src={projectImg}
-        alt={data.alt == null
-          ? "project"
-          : data.alt
-        }
+        title={data.alt || data.title}
+        alt={data.alt ?? "project"}
       />
     </div>
     <div className="project-body">
@@ -77,6 +74,7 @@ export default class Project extends PureComponent {
       <a href={data.git} onClick={() => ReactGA.event({
         category: 'Project',
         action: 'Clicked git',
+        // @ts-ignore
         value: data.id
       })}>
         <img src={githubTextLogo} alt="Project Link" height="42px"/>

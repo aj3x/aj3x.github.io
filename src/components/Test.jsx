@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import dog from '../files/404.jpg';
-import './Test.scss'
+import React, { Component } from 'react';
+import dog from '../static/img/404.jpg';
+import './Test.scss';
 
 export default class Test extends Component {
   render() {

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const projects = [
+const projects:ProjectType[] = [
   // {
   //   id: "hugm",
   //   title: "Hugr Mobile",
@@ -16,7 +16,7 @@ const projects = [
   {
     id:"this",
     title:"This Website!",
-    img: "web_420.png",
+    img: "web",
     alt:"Webpage Inception",
     dates:"Feb 2018 - Present",
     job:"Sole Programmer",
@@ -71,7 +71,7 @@ const projects = [
   {
     id:"sudoku",
     title:"Sudoku Solver",
-    img:'SquareSudokuSolver.gif',
+    img:'sudoku',
     alt:"Sudoku",
     dates:"October 2018",
     job:"Sole Programmer",
@@ -88,7 +88,7 @@ const projects = [
   {
     id:"gamejam2018",
     title:"GameJam 2018",
-    img:'gamejam2018_1620.png',
+    img:'gamejam2018',
     alt:"GameJam 2018",
     dates:"May 2018",
     job:"Programmer",
@@ -106,7 +106,7 @@ const projects = [
   {
     id:"dwarves",
     title:"The Dwarves at Hielthe Mine",
-    img:'dwarves_title_480.png',
+    img:'dwarves',
     alt:"Dwarves",
     dates:"Jan 2018 - April 2018",
     job:"Programmer",
@@ -137,7 +137,7 @@ const projects = [
   {
     id:"bomber",
     title:"BomberBoy",
-    img:'bomber_screen_480.png',
+    img:'bomber',
     alt:"BomberBoy action",
     dates:"Oct 2017 - Dec 2017",
     job:"Programmer",
@@ -154,7 +154,7 @@ const projects = [
   {
     id:"gamejam2016",
     title:"GameJam 2016",
-    img:'gamejam_screen_480.png',
+    img:'gamejam',
     alt:"Gamejam 2016",
     dates:"February 2016",
     job:"Team Lead",

@@ -1,6 +1,6 @@
-import React, { PureComponent } from 'react'
-import profile from '../files/profile.jpg'
+import React, { PureComponent } from 'react';
 import ReactGA from 'react-ga';
+import profile from '../static/img/profile.jpg';
 
 export default class About extends PureComponent {
   constructor(props) {
