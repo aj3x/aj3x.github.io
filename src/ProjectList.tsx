@@ -1,6 +1,6 @@
 import React from 'react'
 
-const projects = [
+const projects:ProjectType[] = [
   // {
   //   id: "hugm",
   //   title: "Hugr Mobile",

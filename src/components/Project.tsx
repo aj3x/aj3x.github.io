@@ -5,7 +5,7 @@ import githubTextLogo from '../static/img/GitHub-Logos/GitHub_Logo_240.png';
 import defaultProjectImage from '../static/img/project-img/default.png';
 import './Project.scss';
 
-export default class Project extends PureComponent {
+export default class Project extends PureComponent<{data:ProjectType}> {
   render() {
   const { data } = this.props;
   let languageList = Object.values(data.languages).map((item, index) => {
@@ -17,10 +17,13 @@ export default class Project extends PureComponent {
     );
   })
 
-  let projectImg = data.img == null
+  const imgpath = '../static/img/project-img/'+data.img;
+  let projectImg = !data.img
     ? defaultProjectImage
-    : require('../static/img/project-img/'+data.img);
+    : require(imgpath);
 
+  console.log( projectImg);
+  
   return (
 <div className="project-card">
   <div className="project-main">
@@ -28,10 +31,7 @@ export default class Project extends PureComponent {
       <Grain />
       <img
         src={projectImg}
-        alt={data.alt == null
-          ? "project"
-          : data.alt
-        }
+        alt={data.alt ?? "project"}
       />
     </div>
     <div className="project-body">
@@ -77,6 +77,7 @@ export default class Project extends PureComponent {
       <a href={data.git} onClick={() => ReactGA.event({
         category: 'Project',
         action: 'Clicked git',
+        // @ts-ignore
         value: data.id
       })}>
         <img src={githubTextLogo} alt="Project Link" height="42px"/>
