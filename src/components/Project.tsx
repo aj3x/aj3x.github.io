@@ -3,6 +3,7 @@ import ReactGA from 'react-ga';
 import Grain from './Grain';
 import githubTextLogo from '../static/img/GitHub-Logos/GitHub_Logo_240.png';
 import defaultProjectImage from '../static/img/project-img/default.png';
+import ProjectImages from '../static/img/project-img';
 import './Project.scss';
 
 export default class Project extends PureComponent<{data:ProjectType}> {
@@ -17,12 +18,7 @@ export default class Project extends PureComponent<{data:ProjectType}> {
     );
   })
 
-  const imgpath = '../static/img/project-img/'+data.img;
-  let projectImg = !data.img
-    ? defaultProjectImage
-    : require(imgpath);
-
-  console.log( projectImg);
+  let projectImg = ProjectImages[data.img||'default'];
   
   return (
 <div className="project-card">
@@ -31,6 +27,7 @@ export default class Project extends PureComponent<{data:ProjectType}> {
       <Grain />
       <img
         src={projectImg}
+        title={data.alt || data.title}
         alt={data.alt ?? "project"}
       />
     </div>
