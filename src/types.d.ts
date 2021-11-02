@@ -8,4 +8,5 @@ type ProjectType = {
   languages: string[],
   img?: string,
   alt?: string,
+  link?: string,
 }

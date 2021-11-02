@@ -12,7 +12,7 @@ export default function Foot() {
         <div className="col" style={{margin: 'auto'}}>
         </div>
         <div className="col">
-          <p className="foot-text">
+          <p className="foot-text" title="And not WordPress :p">
             Proudly made by me!
           </p>
         </div>

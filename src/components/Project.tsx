@@ -73,13 +73,8 @@ export default class Project extends PureComponent<{data:ProjectType}> {
       {languageList}
     </div>
     <div className="project-link">
-      <a href={data.git} onClick={() => ReactGA.event({
-        category: 'Project',
-        action: 'Clicked git',
-        // @ts-ignore
-        value: data.id
-      })}>
-        <img src={githubTextLogo} alt="Project Link" height="42px"/>
+      <a href={data.git}>
+        {data.link ? <h4>{data.link}</h4> : <img src={githubTextLogo} alt="Project Link" height="42px"/>}
       </a>
     </div>
   </div>
