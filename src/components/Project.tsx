@@ -20,15 +20,18 @@ export default class Project extends PureComponent<{data:ProjectType}> {
   let projectImg = ProjectImages[data.img||'default'];
   
   return (
-<div className="project-card">
+<div id={data.id} className="project-card">
   <div className="project-main">
     <div className="project-img">
       <Grain />
-      <img
-        src={projectImg}
-        title={data.alt || data.title}
-        alt={data.alt ?? "project"}
-      />
+      {data.id === "this"
+        ? <div title={data.alt}><iframe className="inception" src="/" title="this" scrolling="no" /></div>
+        :<img
+          src={projectImg}
+          title={data.alt || data.title}
+          alt={data.alt ?? "project"}
+        />
+      }
     </div>
     <div className="project-body">
       <div className="project-header">
