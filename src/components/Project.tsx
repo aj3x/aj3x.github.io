@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import ReactGA from 'react-ga';
 import Grain from './Grain';
 import githubTextLogo from '../static/img/GitHub-Logos/GitHub_Logo_240.png';
 import ProjectImages from '../static/img/project-img';

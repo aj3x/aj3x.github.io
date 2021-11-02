@@ -1,12 +1,7 @@
 import React, { PureComponent } from 'react';
-import ReactGA from 'react-ga';
 import './Contact.scss';
 
 export default class Contact extends PureComponent {
-  constructor(props) {
-    super(props);
-    ReactGA.pageview("/contact");
-  }
   render() {
     return (
       <div>

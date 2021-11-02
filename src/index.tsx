@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ReactGA from 'react-ga';
-ReactGA.initialize('UA-131154210-2');
-ReactGA.pageview('/homepage');
 
 ReactDOM.render(
   <React.StrictMode>
