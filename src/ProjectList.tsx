@@ -45,7 +45,6 @@ const projects:ProjectType[] = [
     description:<p>
       A web application for keeping track of characters 
       in the pen and paper game Red Markets. <br/>
-      I am currently updating the alpha version to utilize Redux. <br/>
       This application uses some other packages in react such 
       as <a href="https://www.npmjs.com/package/react-router-dom">react-router-dom</a> as 
       well as <a href="https://www.npmjs.com/package/rc-slider">rc-slider</a>.
@@ -63,8 +62,11 @@ const projects:ProjectType[] = [
     dates:"Dec 2018 - Apr 2019",
     job:"Sole Programmer",
     description:<p>
-      A web application to enable play on a users Screeps server.
-      Currently testing and creating a new backend to support Google Authorization for logins.
+      Screeps is a top-down game based on Javascript. You control your units by writing Javascript tied to the API.
+      The game is very extensible with the ability to create your own scripts for everything from pathing to including external libraries/APIs.
+      Desigining scripts for you creeps involves determining the best course of action as well as writing efficient code as with each tick you are given a limted amount of CPU time and memory space. 
+      I created web application to enable play on a user's Screeps server.
+      Tested and created a new backend to support Google Authorization for logins.
     </p>,
     languages:["NodeJS", "MongoDB", "Redis", "JavaScript", "REST APIs", "React", "Sass", "Angular", "CSS", "HTML5"],
     git: "https://github.com/aj3x/ScreepsWeb"
@@ -126,7 +128,7 @@ const projects:ProjectType[] = [
     {/* The AI uses dynamic nav meshes to get around. */}
     {/* To reduce the system load, only selected areas are generated dynamically around: player, towncenter, and outposts. */}
     I worked on numerous aspects of the game throughout development. The majority of my time was spent on AI, NavMesh, terrain
-    generation, resource generation, and improving efficiency of the entire system by over 1000%.
+    generation, resource generation, and improving efficiency of the entire system by over 10x.
     I also helped team members design, develop, and integrate their code into the project and acted as the go to person for programming help.
     Overall the team worked diligently and spent many weekends fixing unforseen problems and efficiency issues.
     The final result was presented at Bartari to the general public. 

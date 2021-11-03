@@ -14,6 +14,7 @@ export default class Projects extends PureComponent{
       <div>
         <h1>Projects</h1>
         Below you will find some of the projects I've worked on!
+        This list is by no means extensive so feel free to ask me about other projects I've worked on.
         {projectList}
       </div>
     )
