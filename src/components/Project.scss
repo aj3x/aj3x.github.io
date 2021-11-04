@@ -63,12 +63,30 @@
 }
 
 $img-size: 100px;
-.project-img, .project-img img{
+.project-img, .project-img img, .project-img iframe.inception{
   width: $img-size;
   height: $img-size;
   @media screen and (min-width: 768px){
+    $img-size: 150px;
     width: 150px;
     height: 150px;
+  }
+}
+$t: 4;
+$scale: 1 / $t;
+$margin: ($t - 1) / 4 * -1em;
+iframe.inception {
+  pointer-events: none;
+  font-size: 200px;
+  width: 0.5em * $t !important;
+  height: 0.5em * $t !important;
+  margin: $margin;
+  // margin: (1-$scale) * -1em;
+  overflow: hidden;
+  z-index: -999;
+  transform: scale($scale);
+  @media screen and (min-width: 768px){
+    font-size: 300px;
   }
 }
 
@@ -146,6 +164,14 @@ $img-size: 100px;
   }
   .project-link{
     flex: 1 1 auto;
+
+    > a > img {
+      transition: ease-out 0.3s;
+      &:hover {
+        filter: contrast(40%);
+        -webkit-filter: contrast(40%);
+      }
+    }
   }
 }
 

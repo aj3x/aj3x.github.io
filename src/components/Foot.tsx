@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactGA from 'react-ga';
 import gitImg from '../static/img/GitHub-Mark-120px-plus.png';
 import linkedinImg from '../static/img/LinedIn-Black/In-Black-128px-R.png';
 
@@ -12,17 +11,12 @@ export default function Foot() {
         <div className="col" style={{margin: 'auto'}}>
         </div>
         <div className="col">
-          <p className="foot-text">
+          <p className="foot-text" title="And not WordPress :p">
             Proudly made by me!
           </p>
         </div>
         <div className="col">
-          <a className=""
-            href="https://github.com/aj3x/"
-            onClick={() => ReactGA.event({
-                category: 'Footer',
-                action: 'Clicked Github'
-          })}>
+          <a href="https://github.com/aj3x/">
             <img src={gitImg}
                 alt="GitHub"
                 title="GitHub"
@@ -34,12 +28,7 @@ export default function Foot() {
                 //     120px"
             />
           </a>
-          <a className=""
-            href="https://linkedin.com/in/aj3x/"
-            onClick={() => ReactGA.event({
-            category: 'Footer',
-            action: 'Clicked LinkedIn'
-          })}>
+          <a href="https://linkedin.com/in/aj3x/">
             <img src={linkedinImg}
               alt="LinkedIn" 
               title="LinkedIn"

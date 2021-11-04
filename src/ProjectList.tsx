@@ -1,18 +1,23 @@
 import React from 'react'
 
 const projects:ProjectType[] = [
-  // {
-  //   id: "hugm",
-  //   title: "Hugr Mobile",
-  //   // img: '',
-  //   alt: "Hugr app",
-  //   dates: "May 2019 - Present",
-  //   job: "Software Developer",
-  //   description: <p>
-
-  //   </p>,
-  //   languages: ["React", "React Native", "JavaScript", "Jest", "Realm", "AWS", "NoSQL"]
-  // },
+  {
+    id: "hugm",
+    title: "Hugr",
+    // img: '',
+    git: "https://hugr.ca",
+    alt: "Hugr",
+    dates: "May 2019 - Present",
+    job: "Full Stack Developer",
+    description: <p>
+      I started working on this project early on, helping develop the MVP. I have made major contributions to the project and enjoyed designing and developing the infrastructure.
+      Some of my contributions include designing and building an offline first syncing solution.
+      Creating a secure, performant, scalable backend to enable users to track and share data as well as organizations to view their member's aggregated data.
+      Implementing designs in React Native and NextJS and the integrations with the backend's API.
+    </p>,
+    link: "Hugr",
+    languages: ["React", "React Native", "JavaScript", "Jest", "Realm", "AWS", "NoSQL", "DynamoDB", "Next.js", "NextAuth.js", "Lambda", "Cypress"]
+  },
   {
     id:"this",
     title:"This Website!",
@@ -21,11 +26,9 @@ const projects:ProjectType[] = [
     dates:"Feb 2018 - Present",
     job:"Sole Programmer",
     description:<p>
-    I developed this website using React, Bootstrap, Sass, and my own time. Previous versions
-    have been developed using Angular, Less, and only HTML5.
-    I am continually updating this website to reflect my experience.
-    {/* I also have a couple of other websites one under wordpress at <a href="www.aj3x.ca">aj3x.ca</a>
-    and one I host from my own server at <a href="www.game.aj3x.ca">game.aj3x.ca</a>.      */}
+      I developed this website using React, Bootstrap, Sass, and some premium elbow grease.
+      I try to continually updating this website to reflect my experience.
+      Come back soon as I migrate this website to <a href="https://nextjs.org">Next.js</a>.
     </p>,
     languages:["React", "Sass", "JavaScript", "Bootstrap", "CSS", "HTML5", "JSX"],
     git: "https://github.com/aj3x/aj3x.github.io",
@@ -42,7 +45,6 @@ const projects:ProjectType[] = [
     description:<p>
       A web application for keeping track of characters 
       in the pen and paper game Red Markets. <br/>
-      I am currently updating the alpha version to utilize Redux. <br/>
       This application uses some other packages in react such 
       as <a href="https://www.npmjs.com/package/react-router-dom">react-router-dom</a> as 
       well as <a href="https://www.npmjs.com/package/rc-slider">rc-slider</a>.
@@ -60,8 +62,11 @@ const projects:ProjectType[] = [
     dates:"Dec 2018 - Apr 2019",
     job:"Sole Programmer",
     description:<p>
-      A web application to enable play on a users Screeps server.
-      Currently testing and creating a new backend to support Google Authorization for logins.
+      Screeps is a top-down game based on Javascript. You control your units by writing Javascript tied to the API.
+      The game is very extensible with the ability to create your own scripts for everything from pathing to including external libraries/APIs.
+      Desigining scripts for you creeps involves determining the best course of action as well as writing efficient code as with each tick you are given a limted amount of CPU time and memory space. 
+      I created web application to enable play on a user's Screeps server.
+      Tested and created a new backend to support Google Authorization for logins.
     </p>,
     languages:["NodeJS", "MongoDB", "Redis", "JavaScript", "REST APIs", "React", "Sass", "Angular", "CSS", "HTML5"],
     git: "https://github.com/aj3x/ScreepsWeb"
@@ -123,7 +128,7 @@ const projects:ProjectType[] = [
     {/* The AI uses dynamic nav meshes to get around. */}
     {/* To reduce the system load, only selected areas are generated dynamically around: player, towncenter, and outposts. */}
     I worked on numerous aspects of the game throughout development. The majority of my time was spent on AI, NavMesh, terrain
-    generation, resource generation, and improving efficiency of the entire system by over 1000%.
+    generation, resource generation, and improving efficiency of the entire system by over 10x.
     I also helped team members design, develop, and integrate their code into the project and acted as the go to person for programming help.
     Overall the team worked diligently and spent many weekends fixing unforseen problems and efficiency issues.
     The final result was presented at Bartari to the general public. 
