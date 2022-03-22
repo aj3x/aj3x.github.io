@@ -11,6 +11,7 @@ export default class Contact extends PureComponent {
           Thank you for taking the time to look at my website.<br/>
           Feel free to contact me and I'll get back to you as soon as possible.
           </p>
+          <a href="mailto:hey@alexrussell.dev" rel="noreferrer" target="_blank">hey@alexrussell.dev</a>
         </div>
       </div>
     )

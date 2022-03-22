@@ -15,7 +15,7 @@ export default class About extends PureComponent {
           I have worked on various projects from games to machine learning.
           I am eager to continue learning and improve my work.
           I am a currently a software developer at <a
-            href="http://territorial.ca">
+            href="https://territorial.ca">
             Territorial
           </a> in Saskatoon, working on the app <a href="https://hugr.ca">Hugr</a>.
           </p>
