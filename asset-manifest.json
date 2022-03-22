@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dc4d87e1.css",
-    "main.js": "/static/js/main.bd17f55e.js",
+    "main.js": "/static/js/main.2931eab9.js",
     "static/js/787.ada07c97.chunk.js": "/static/js/787.ada07c97.chunk.js",
     "static/media/dwarves_title.png": "/static/media/dwarves_title.c83ff7c2dbf02e3d4cd1.png",
     "static/media/gamejam2018-screenshot.png": "/static/media/gamejam2018-screenshot.1d3924a1a383220eb214.png",
@@ -14,11 +14,11 @@
     "static/media/GitHub_Logo_240.png": "/static/media/GitHub_Logo_240.1fca2e4820f2fcbde95f.png",
     "index.html": "/index.html",
     "main.dc4d87e1.css.map": "/static/css/main.dc4d87e1.css.map",
-    "main.bd17f55e.js.map": "/static/js/main.bd17f55e.js.map",
+    "main.2931eab9.js.map": "/static/js/main.2931eab9.js.map",
     "787.ada07c97.chunk.js.map": "/static/js/787.ada07c97.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4d87e1.css",
-    "static/js/main.bd17f55e.js"
+    "static/js/main.2931eab9.js"
   ]
 }
