@@ -1,32 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.82a15302.chunk.css",
-    "main.js": "/static/js/main.ba947950.chunk.js",
-    "main.js.map": "/static/js/main.ba947950.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.dd1cdb4a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.dd1cdb4a.js.map",
-    "static/js/2.6478ebde.chunk.js": "/static/js/2.6478ebde.chunk.js",
-    "static/js/2.6478ebde.chunk.js.map": "/static/js/2.6478ebde.chunk.js.map",
-    "static/js/3.7f9153ba.chunk.js": "/static/js/3.7f9153ba.chunk.js",
-    "static/js/3.7f9153ba.chunk.js.map": "/static/js/3.7f9153ba.chunk.js.map",
+    "main.css": "/static/css/main.dc4d87e1.css",
+    "main.js": "/static/js/main.bd17f55e.js",
+    "static/js/787.ada07c97.chunk.js": "/static/js/787.ada07c97.chunk.js",
+    "static/media/dwarves_title.png": "/static/media/dwarves_title.c83ff7c2dbf02e3d4cd1.png",
+    "static/media/gamejam2018-screenshot.png": "/static/media/gamejam2018-screenshot.1d3924a1a383220eb214.png",
+    "static/media/web.png": "/static/media/web.077919ecd99d92a62f2f.png",
+    "static/media/bomber_screen.png": "/static/media/bomber_screen.90602ee1c34448547c85.png",
+    "static/media/gamejam_screen.png": "/static/media/gamejam_screen.8877972dd25aa45fda21.png",
+    "static/media/noise.jpg": "/static/media/noise.e8d72d765bd13cde64d1.jpg",
+    "static/media/SquareSudokuSolver.gif": "/static/media/SquareSudokuSolver.cffb8af0b8d498db1df4.gif",
+    "static/media/profile.jpg": "/static/media/profile.f33157cd30335f61ac40.jpg",
+    "static/media/GitHub_Logo_240.png": "/static/media/GitHub_Logo_240.1fca2e4820f2fcbde95f.png",
     "index.html": "/index.html",
-    "static/css/main.82a15302.chunk.css.map": "/static/css/main.82a15302.chunk.css.map",
-    "static/js/2.6478ebde.chunk.js.LICENSE.txt": "/static/js/2.6478ebde.chunk.js.LICENSE.txt",
-    "static/media/404.5b6ae186.jpg": "/static/media/404.5b6ae186.jpg",
-    "static/media/GitHub_Logo_240.1fca2e48.png": "/static/media/GitHub_Logo_240.1fca2e48.png",
-    "static/media/SquareSudokuSolver.cffb8af0.gif": "/static/media/SquareSudokuSolver.cffb8af0.gif",
-    "static/media/bomber_screen.90602ee1.png": "/static/media/bomber_screen.90602ee1.png",
-    "static/media/dwarves_title.c83ff7c2.png": "/static/media/dwarves_title.c83ff7c2.png",
-    "static/media/gamejam2018-screenshot.1d3924a1.png": "/static/media/gamejam2018-screenshot.1d3924a1.png",
-    "static/media/gamejam_screen.8877972d.png": "/static/media/gamejam_screen.8877972d.png",
-    "static/media/Grain.scss": "/static/media/noise.e8d72d76.jpg",
-    "static/media/profile.f33157cd.jpg": "/static/media/profile.f33157cd.jpg",
-    "static/media/web.077919ec.png": "/static/media/web.077919ec.png"
+    "main.dc4d87e1.css.map": "/static/css/main.dc4d87e1.css.map",
+    "main.bd17f55e.js.map": "/static/js/main.bd17f55e.js.map",
+    "787.ada07c97.chunk.js.map": "/static/js/787.ada07c97.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.dd1cdb4a.js",
-    "static/js/2.6478ebde.chunk.js",
-    "static/css/main.82a15302.chunk.css",
-    "static/js/main.ba947950.chunk.js"
+    "static/css/main.dc4d87e1.css",
+    "static/js/main.bd17f55e.js"
   ]
 }
