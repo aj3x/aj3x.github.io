@@ -16,7 +16,7 @@ const projects:ProjectType[] = [
       Implementing designs in React Native and NextJS and the integrations with the backend's API.
     </p>,
     link: "Hugr",
-    languages: ["React", "React Native", "JavaScript", "Jest", "Realm", "AWS", "NoSQL", "DynamoDB", "Next.js", "NextAuth.js", "Lambda", "Cypress"]
+    languages: ["React", "React Native", "JavaScript", "Jest", "Realm", "AWS", "NoSQL", "Next.js", "Lambda", "Cypress"]
   },
   {
     id:"this",
